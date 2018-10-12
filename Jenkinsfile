@@ -8,4 +8,7 @@ node {
     stage('Checkout'){        
         echo BUILD_USER
     }
+    stage('Build'){
+        echo 'this is the build stage'
+    }
 }
